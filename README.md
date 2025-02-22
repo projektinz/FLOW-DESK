@@ -66,6 +66,7 @@ Stwórz bazę danych Firestore w trybie produkcyjnym lub testowym.
 W sekcji Storage utwórz przestrzeń do przechowywania plików (np. obrazów).
 
 5️⃣ Dodaj plik firebase.js w folderze config:
+```plaintext
 
 import { initializeApp } from 'firebase/app';
 
@@ -98,12 +99,12 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 
 export const storage = getStorage(app);
-
+```
 ---
 
 🔒 Reguły bezpieczeństwa Firestore
 
-
+```plaintext
 service cloud.firestore {
 
   match /databases/{database}/documents {
@@ -115,8 +116,9 @@ service cloud.firestore {
     }
   }
 }
+```
 
-🎨 Struktura projektu
+🎨 Struktura projektU
 
 ## 🎨 Struktura projektu
 
