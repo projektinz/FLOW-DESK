@@ -99,19 +99,33 @@ service cloud.firestore {
 🎨 Struktura projektu
 
 ├── src
+
 │   ├── assets           # Zasoby (obrazy, ikony)
+
 │   ├── components       # Komponenty React
+
 │   │   ├── ChatBox
+
 │   │   ├── LeftSidebar
+
 │   │   └── RightSidebar
+
 │   ├── context          # Kontekst aplikacji
+
 │   ├── pages            # Widoki strony (Login, Chat, ProfileUpdate)
+
 │   ├── config           # Konfiguracja Firebase
+
 │   ├── App.jsx          # Główny komponent aplikacji
+
 │   └── main.jsx         # Punkt wejścia aplikacji
+
 ├── public               # Pliki statyczne
+
 ├── package.json         # Plik konfiguracyjny npm
+
 └── vite.config.js       # Konfiguracja Vite
+
 
 🔔 Walidacja danych
 
@@ -147,9 +161,6 @@ const sendMessage = async () => {
   }
 };
 🖼️ Przesyłanie zdjęć:
-javascript
-Kopiuj
-Edytuj
 const sendImage = async (e) => {
   const fileUrl = await upload(e.target.files[0]);
   if (fileUrl && messagesId) {
