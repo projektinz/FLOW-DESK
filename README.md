@@ -180,10 +180,9 @@ Znak specjalny i cyfrę
 ---
 
 💬 Wysyłanie wiadomości:
-
+```plaintext
 
 const sendMessage = async () => {
-
   if (input && messagesId) 
   {
     await updateDoc(doc(db, 'messages', messagesId), 
@@ -198,7 +197,9 @@ const sendMessage = async () => {
     setInput('');
   }
 };
+```
 🖼️ Przesyłanie zdjęć:
+```plaintext
 const sendImage = async (e) => {
   const fileUrl = await upload(e.target.files[0]);
   if (fileUrl && messagesId) {
@@ -211,7 +212,7 @@ const sendImage = async (e) => {
     });
   }
 };
-
+```
 ---
 
 🤝 Autorzy projektu
