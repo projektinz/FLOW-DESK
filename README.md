@@ -143,7 +143,7 @@ service cloud.firestore {
 ---
 
 
-🔔 Walidacja danych
+## 🔔 Walidacja danych
 
 ✅ Hasło musi zawierać:
 
@@ -220,8 +220,11 @@ const sendImage = async (e) => {
 ## 🤝 Autorzy projektu
 
 👨‍💻 Krzysztof Małek – 57251
+
 👨‍💻 Kacper Żurawik – 57119
+
 🎓 Szkoła Wyższa im. Pawła Włodkowica w Płocku
+
 📅 Płock, 2025
 
 ---
