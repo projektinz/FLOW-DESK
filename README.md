@@ -117,6 +117,9 @@ service cloud.firestore {
 
 🎨 Struktura projektu
 
+## 🎨 Struktura projektu
+
+```plaintext
 ├── src
 │   ├── assets           # Zasoby (obrazy, ikony)
 │   ├── components       # Komponenty React
@@ -131,6 +134,7 @@ service cloud.firestore {
 ├── public               # Pliki statyczne
 ├── package.json         # Plik konfiguracyjny npm
 └── vite.config.js       # Konfiguracja Vite
+
 
 
 ---
