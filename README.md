@@ -178,9 +178,12 @@ Znak specjalny i cyfrę
 
 const sendMessage = async () => {
 
-  if (input && messagesId) {
-    await updateDoc(doc(db, 'messages', messagesId), {
-      messages: arrayUnion({
+  if (input && messagesId) 
+  {
+    await updateDoc(doc(db, 'messages', messagesId), 
+    {
+      messages: arrayUnion(
+      {
         sId: userData.id,
         text: input,
         createdAt: new Date(),
