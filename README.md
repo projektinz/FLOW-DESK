@@ -153,11 +153,11 @@ Wielką literę
 
 Znak specjalny i cyfrę
 
+---
+
 🔄 Pole do potwierdzenia hasła w formularzu rejestracji.
 
 ✉️ Walidacja poprawności adresu e-mail.
-
----
 
 🧪 Funkcje bezpieczeństwa
 
@@ -217,14 +217,11 @@ const sendImage = async (e) => {
 ```
 ---
 
-🤝 Autorzy projektu
+## 🤝 Autorzy projektu
 
 👨‍💻 Krzysztof Małek – 57251
-
 👨‍💻 Kacper Żurawik – 57119
-
 🎓 Szkoła Wyższa im. Pawła Włodkowica w Płocku
-
 📅 Płock, 2025
 
 ---
