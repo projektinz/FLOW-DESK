@@ -120,23 +120,40 @@ service cloud.firestore {
 ✅ Hasło musi zawierać:
 
 Min. 8 znaków
+
 Wielką literę
+
 Znak specjalny i cyfrę
+
 🔄 Pole do potwierdzenia hasła w formularzu rejestracji.
+
 ✉️ Walidacja poprawności adresu e-mail.
+
 🧪 Funkcje bezpieczeństwa
+
 🔒 Firebase Authentication do uwierzytelniania użytkowników
+
 🛡️ Firestore Rules kontrolujące dostęp do danych
+
 💾 Firebase Storage do bezpiecznego przechowywania multimediów
+
 🔔 Informacje o błędach i sukcesach wyświetlane w powiadomieniach (Toastify)
+
 🌍 Wsparcie dla RODO
+
 📄 Wymagana akceptacja regulaminu podczas rejestracji.
+
 🔐 Użytkownik może edytować i usuwać swoje dane.
+
 🔒 Dane w Firebase są szyfrowane podczas przesyłania i przechowywania.
+
 🌟 Przykładowe funkcjonalności (kody źródłowe)
+
 💬 Wysyłanie wiadomości:
 
+
 const sendMessage = async () => {
+
   if (input && messagesId) {
     await updateDoc(doc(db, 'messages', messagesId), {
       messages: arrayUnion({
@@ -163,9 +180,13 @@ const sendImage = async (e) => {
 };
 
 🤝 Autorzy projektu
+
 👨‍💻 Krzysztof Małek – 57251
+
 👨‍💻 Kacper Żurawik – 57119
+
 🎓 Szkoła Wyższa im. Pawła Włodkowica w Płocku
+
 📅 Płock, 2025
 
 📜 Licencja
