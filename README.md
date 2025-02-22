@@ -42,6 +42,7 @@ cd chat-flow-desk
 npm install
 
 4️⃣ Uruchom aplikację:
+
 npm run dev
 
 📌 Aplikacja będzie dostępna pod adresem http://localhost:5173/.
@@ -52,9 +53,11 @@ npm run dev
 2️⃣ Skonfiguruj Firebase Authentication:
 
 Wybierz metodę logowania: Email/Hasło.
+
 3️⃣ Skonfiguruj Firestore Database:
 
 Stwórz bazę danych Firestore w trybie produkcyjnym lub testowym.
+
 4️⃣ Skonfiguruj Storage:
 
 W sekcji Storage utwórz przestrzeń do przechowywania plików (np. obrazów).
@@ -94,9 +97,7 @@ service cloud.firestore {
   }
 }
 🎨 Struktura projektu
-csharp
-Kopiuj
-Edytuj
+
 ├── src
 │   ├── assets           # Zasoby (obrazy, ikony)
 │   ├── components       # Komponenty React
@@ -113,7 +114,9 @@ Edytuj
 └── vite.config.js       # Konfiguracja Vite
 
 🔔 Walidacja danych
+
 ✅ Hasło musi zawierać:
+
 Min. 8 znaków
 Wielką literę
 Znak specjalny i cyfrę
