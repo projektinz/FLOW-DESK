@@ -47,6 +47,8 @@ npm run dev
 
 📌 Aplikacja będzie dostępna pod adresem http://localhost:5173/.
 
+---
+
 ⚡ Konfiguracja Firebase
 
 1️⃣ Utwórz projekt w Firebase na Firebase Console.
@@ -84,6 +86,8 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 export const storage = getStorage(app);
 
+---
+
 🔒 Reguły bezpieczeństwa Firestore
 
 service cloud.firestore {
@@ -113,6 +117,8 @@ service cloud.firestore {
 ├── package.json         # Plik konfiguracyjny npm
 └── vite.config.js       # Konfiguracja Vite
 
+---
+
 
 🔔 Walidacja danych
 
@@ -127,6 +133,8 @@ Znak specjalny i cyfrę
 🔄 Pole do potwierdzenia hasła w formularzu rejestracji.
 
 ✉️ Walidacja poprawności adresu e-mail.
+
+---
 
 🧪 Funkcje bezpieczeństwa
 
@@ -147,6 +155,8 @@ Znak specjalny i cyfrę
 🔒 Dane w Firebase są szyfrowane podczas przesyłania i przechowywania.
 
 🌟 Przykładowe funkcjonalności (kody źródłowe)
+
+---
 
 💬 Wysyłanie wiadomości:
 
@@ -178,6 +188,8 @@ const sendImage = async (e) => {
   }
 };
 
+---
+
 🤝 Autorzy projektu
 
 👨‍💻 Krzysztof Małek – 57251
@@ -187,6 +199,8 @@ const sendImage = async (e) => {
 🎓 Szkoła Wyższa im. Pawła Włodkowica w Płocku
 
 📅 Płock, 2025
+
+---
 
 📜 Licencja
 Projekt udostępniony na licencji MIT. Więcej informacji w pliku LICENSE.
