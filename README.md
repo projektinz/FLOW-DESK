@@ -68,22 +68,35 @@ W sekcji Storage utwórz przestrzeń do przechowywania plików (np. obrazów).
 5️⃣ Dodaj plik firebase.js w folderze config:
 
 import { initializeApp } from 'firebase/app';
+
 import { getAuth } from 'firebase/auth';
+
 import { getFirestore } from 'firebase/firestore';
+
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
+
   apiKey: "TWOJE_API_KEY",
+  
   authDomain: "TWOJA_AUTH_DOMAIN",
+  
   projectId: "TWOJ_PROJECT_ID",
+  
   storageBucket: "TWOJ_STORAGE_BUCKET",
+  
   messagingSenderId: "TWOJ_SENDER_ID",
+  
   appId: "TWOJ_APP_ID"
+  
 };
 
 const app = initializeApp(firebaseConfig);
+
 export const auth = getAuth(app);
+
 export const db = getFirestore(app);
+
 export const storage = getStorage(app);
 
 ---
@@ -91,6 +104,7 @@ export const storage = getStorage(app);
 🔒 Reguły bezpieczeństwa Firestore
 
 service cloud.firestore {
+
   match /databases/{database}/documents {
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
@@ -100,6 +114,7 @@ service cloud.firestore {
     }
   }
 }
+
 🎨 Struktura projektu
 
 ├── src
