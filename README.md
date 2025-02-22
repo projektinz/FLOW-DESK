@@ -32,6 +32,7 @@
 1️⃣ **Sklonuj repozytorium:**
 
 git clone https://github.com/nazwa-uzytkownika/chat-flow-desk.git
+
 2️⃣ Przejdź do folderu projektu:
 
 cd chat-flow-desk
