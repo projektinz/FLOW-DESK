@@ -132,6 +132,7 @@ service cloud.firestore {
 ├── package.json         # Plik konfiguracyjny npm
 └── vite.config.js       # Konfiguracja Vite
 
+
 ---
 
 
