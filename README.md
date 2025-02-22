@@ -118,7 +118,6 @@ service cloud.firestore {
 }
 ```
 
-🎨 Struktura projektU
 
 ## 🎨 Struktura projektu
 
