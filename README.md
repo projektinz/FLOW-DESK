@@ -218,9 +218,9 @@ const sendImage = async (e) => {
 
 ## 🤝 Autorzy projektu
 
-👨‍💻 Krzysztof Małek – 57251
+👨‍💻 Krzysztof Małek 
 
-👨‍💻 Kacper Żurawik – 57119
+👨‍💻 Kacper Żurawik 
 
 🎓 Szkoła Wyższa im. Pawła Włodkowica w Płocku
 
