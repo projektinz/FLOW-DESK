@@ -10,7 +10,7 @@
 - 💬 **Tworzenie czatów** oraz **rozmowy w czasie rzeczywistym**
 - 🖼️ **Wysyłanie i odbieranie multimediów** (obrazy)
 - 🔄 **Podgląd aktywności użytkownika** (status online, ostatnia aktywność)
-- 📝 **Edycja profilu użytkownika** (awatar, biogram)
+- 📝 **Edycja profilu użytkownika** (awatar, biogram,usunięcie konta)
 - 🔔 **Powiadomienia o nowych wiadomościach** (Toastify)
 - 🌙 **Tryb ciemny/jasny** z przełącznikiem
 - 📱 **Pełna responsywność** – aplikacja działa na komputerach
