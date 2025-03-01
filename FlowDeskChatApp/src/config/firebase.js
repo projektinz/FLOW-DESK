@@ -25,7 +25,7 @@ import { toast } from 'react-toastify'
 
 //  Konfiguracja Firebase
 const firebaseConfig = {
-	apiKey: 'AIzaSyDu7AA5RI9Ei9B4H0vPWex97-gyuQ3xWrw',
+	apiKey: '',
 	authDomain: 'flow-desk-4a841.firebaseapp.com',
 	projectId: 'flow-desk-4a841',
 	storageBucket: 'flow-desk-4a841.firebasestorage.app',
