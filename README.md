@@ -31,7 +31,7 @@
 
 1️⃣ **Sklonuj repozytorium:**
 
-git clone https://github.com/nazwa-uzytkownika/chat-flow-desk.git
+git clone https://github.com/projektinz/FLOW-DESK.git
 
 2️⃣ Przejdź do folderu projektu:
 
